@@ -54,9 +54,8 @@ header ul li a:before{
   top: 2px;
   left: 2px;
   bottom: 2px;
-  width: 50%;
+  width: 100%;
   background-color: rgb(255,255,255,0.05);
-
 }
 header ul li a span:nth-child(1){
   position:absolute;
@@ -170,7 +169,7 @@ section:nth-child(odd){
 }
 
 section p{
-  font-size:1.2em;
+  font-size:1.3em;
 }
 
 @media (max-width:992px) {
@@ -349,4 +348,57 @@ font-size: 15px;
 .box:hover .content p{
   opacity: 1;
   transition-delay: 0.1s;
+}
+
+/* contact */
+.contact-form{
+  width: 85%;
+  max-width: 600px;
+  padding: 30px 40px;
+  box-sizing: border-box;
+  border-radius: 8px;
+  text-align: center;
+box-shadow: 0 0 20px  #FFFCC7;
+}
+
+
+.txtb{
+  border: 1px solid #fff;
+  margin: 8px 0;
+  padding: 12px 18px;
+  border-radius: 8px;
+
+}
+.txtb label{
+  display: block;
+  text-align: left;
+  color: #fff;
+  font-size: 20px;
+}
+.txtb input, .txtb textarea{
+  width: 100%;
+  border: none;
+  background: none;
+  color: #fff;
+  outline: none;
+  font-size: 18px;
+  margin-top: 6px;
+}
+.btn{
+  display: inline-block;
+  background-color: rgb(255,255,255,0.1);
+  padding: 14px 0;
+  color: white;
+  cursor:pointer;
+  margin-top: 30px;
+  width: 50%;
+  font-size: 20px;
+}
+
+footer{
+  background: #260030;
+  color:#FFFCC7;
+  font-size: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }

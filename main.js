@@ -68,3 +68,9 @@ b5.onclick = function(){
   var pdf = 'AHA5060_FinalProject_YuxinCao.pdf';
   window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
 };
+
+//Contact
+
+function Submit(){
+  alert("提交成功，请耐心等待回复，谢谢！Form submitted. Thanks for your patience in waiting for responses.");
+}
