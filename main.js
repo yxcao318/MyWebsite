@@ -38,8 +38,7 @@ menu[3].onmouseout = function(){
 //portfolio link
 var b0 = document.getElementById('b0');
 b0.onclick = function(){
-  var pdf = 'MSTU4083_FinalProject_YuxinCao.pdf';
-  window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/HMxGreenDesign_YuxinCao.pdf');
 };
 
 var b1 = document.getElementById('b1');
