@@ -7,7 +7,6 @@
 body{
   background: #FFFCC7;
   font-family: 'IM Fell Great Primer SC', 'STXinwei';
-
 }
 header{
   position:fixed;
@@ -65,7 +64,7 @@ header ul li a span:nth-child(1){
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to right, #0c002b, #1779ff);
+  background: linear-gradient(to right, #0c002b, #FFFCC7);
   animation: animate1 2s linear infinite;
 }
 @keyframes animate1 {
@@ -83,7 +82,7 @@ header ul li a span:nth-child(2){
   right: 0;
   width:  2px;
   height:100%;
-  background: linear-gradient(to bottom, #0c002b, #1779ff);
+  background: linear-gradient(to bottom, #0c002b, #FFFCC7);
   animation: animate2 2s linear infinite;
 
 }
@@ -102,7 +101,7 @@ header ul li a span:nth-child(3){
   left: 0;
   width: 100%;
   height: 2px;
-  background: linear-gradient(to left, #0c002b, #1779ff);
+  background: linear-gradient(to left, #0c002b, #FFFCC7);
   animation: animate3 2s linear infinite;
 }
 @keyframes animate3 {
@@ -120,7 +119,7 @@ header ul li a span:nth-child(4){
   left: 0;
   width:  2px;
   height:100%;
-  background: linear-gradient(to top, #0c002b, #1779ff);
+  background: linear-gradient(to top, #0c002b, #FFFCC7);
   animation: animate4 2s linear infinite;
 
 }
@@ -132,10 +131,7 @@ header ul li a span:nth-child(4){
       transform:  translateY(-100%);
     }
 }
-/* header ul li a.active{
-  border: solid 1px #fff;
-  transition: 0.5s;
-} */
+
 .toggle{
   display: none;
 }
@@ -211,7 +207,7 @@ section p{
   header ul li a span{
     display: none;
   }
-  
+
   .toggle{
     display: block;
     position: relative;
@@ -251,164 +247,96 @@ section p{
   }
 }
 
-/* *{
-  margin: 0;
-  padding:0;
-  box-sizing: border-box;
-  font-family: "STXinwei";
-}
-
-body{
+/* portfolio */
+.container{
+  max-width: 100vw;
   display: flex;
+  margin: 50px 0;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
-  background: #E8F2D0;
-  min-height: 100vh;
-
+}
+.box{
+position: relative;
+width: 480px;
+height: 330px;
+margin: 50px;
+background: #000;
+box-shadow: 10px 20px 30px rgba(0, 0, 0, 0.5);
 }
 
-.poem{
-  font-size: 40px;
-  color:#00382A;
-}
-
-.container{
-  position: relative;
-  width: 1000px;
-  display: flex;
-  justify-content: space-between;
-  flex-wrap: wrap;
-  margin: 30px;
-}
-
-.container .card{
-  position: relative;
-  height: 250px;
-  background: #fff;
-  display: flex;
-  width: 45%;
-  margin: 30px 0;
-  border: 3px solid #00382A;
-  box-shadow: 1px 1px 5px #00382A;
-  border-radius: 10%;
-}
-
-.container .card .imgBx{
-position:absolute;
-top:0;
+.box .imgBx{
+position: absolute;
+top: 0;
 left: 0;
 width: 100%;
 height: 100%;
-background: rgba(232,242,208, 0.75);
-z-index:1;
-display: flex;
-justify-content: center;
-align-items: center;
-overflow: hidden;
-transition: 0.5s ease-in-out;
-border-radius: 10%;
 }
 
-.container .card:hover .imgBx{
-  width: 120px;
-  height: 120px;
-  left: -60px;
-  top: calc(50% - 60px);
-  transition: 0.5s ease-in-out;
-  background: #730217;
-  border-radius: 20%;
-  border: 2px solid #fff;
-  box-shadow: 2px 2px 5px #730217;
+.box .imgBx img{
+position: absolute;
+top: 0;
+left: 0;
+width: 100%;
+height: 100%;
+object-fit: cover;
+transition: 0.5s;
 }
 
-
-.container .card .imgBx img{
-  max-width: 150px;
-  display: none;
-  transition: 0.5s ease-in-out;
+.box:hover .imgBx img{
+  opacity: 1;
 }
-
-.container .card:hover .imgBx .poem{
-display: none;
-
-}
-
-.container .card:hover .imgBx img{
-  max-width: 100px;
-  display: block;
-}
-
-.container .card .content{
+.box .content{
   position: absolute;
-  right: 0;
-  width: calc(100% - 75px);
-  height: 100%;
-  padding: 20px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  bottom: 40%;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  background: rgb(255, 252, 199, 0.85);
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 17px;
+  box-sizing: border-box;
+    text-align: center;
+}
+
+.box .long{
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  width: 80%;
+  height: 60px;
+  background: rgb(255, 252, 199, 0.85);
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 7px 17px;
+  box-sizing: border-box;
+    text-align: center;
+}
+
+.box:hover .content{
+  width: 80%;
+  height: 80%;
+  bottom: 10%;
+  left: 10%;
+  cursor: pointer;
+}
+.box .content h3{
+  margin: 0;
+  padding: 0;
   font-size: 20px;
-
 }
 
-#a{
-  background-image: url("../images/musices2.png");
-    background-size: contain;
-    background-position: center;
-} */
-
-/* .container .card .content h3{
-  margin-bottom: 5px;
-  font-size: 24px;
+.box .content p{
+  margin: 10px 0 0;
+  padding: 0;
+  opacity: 0;
+  line-height: 1.2em;
+  transition: 0.5s;
+text-align: justify;
+font-size: 15px;
 }
-
-.container .card .content a{
-  display: inline-block;
-  margin-top: 10px;
-  padding: 5px 10px;
-  background: #00382A;
-  text-decoration: none;
-  color: #fff;
-} */
-
-/* @media (max-width: 992px){
-  .container{
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-  }
-
-  .container .card{
-    width: 400px;
-  }
+.box:hover .content p{
+  opacity: 1;
+  transition-delay: 0.1s;
 }
-
-@media (max-width: 768px){
-
-  .container .card{
-    max-width: 300px;
-    flex-direction: column;
-    border-radius:0;
-    height: auto;
-  }
-  .container .card .imgBx{
-    position: relative;
-    border-radius: 0;
-  }
-  .container .card .imgBx,
-  .container .card:hover .imgBx{
-    width: 100%;
-    height: 120px;
-    left:0;
-    border-radius: 0;
-  }
-  .container .card .imgBx img,
-  .container .card:hover .imgBx img{
-  max-width: 100px;
-  }
-.container .card .content{
-  position: relative;
-  width: 100%;
-}
-
-} */
