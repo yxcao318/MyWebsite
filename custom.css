@@ -403,6 +403,11 @@ font-size: 15px;
 .box .content h3{
   font-size: 15px;
 }
+.box:hover .content p{
+  opacity: 1;
+  transition-delay: 0.1s;
+  font-size: 12px;
+}
 
 }
 
