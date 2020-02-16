@@ -404,6 +404,24 @@ font-size: 15px;
   font-size: 15px;
 }
 
+.box:hover .content{
+  position: absolute;
+  bottom: 40%;
+  left: 10%;
+  width: 80%;
+  height: 40px;
+  background: rgb(255, 252, 199, 0.85);
+  transition: 0.5s;
+  overflow: hidden;
+  padding: 10px;
+  box-sizing: border-box;
+    text-align: center;
+}
+
+.box:hover .long{
+  padding: 2px 10px;
+}
+
 }
 
 /* contact */

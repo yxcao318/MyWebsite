@@ -38,19 +38,17 @@ menu[3].onmouseout = function(){
 //portfolio link
 var b0 = document.getElementById('b0');
 b0.onclick = function(){
-  window.open('https://yxcao318.github.io/MyWebsite/pdf/HMxGreenDesign_YuxinCao.pdf');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/MSTU4083_FinalProject_YuxinCao.pdf');
 };
 
 var b1 = document.getElementById('b1');
 b1.onclick = function(){
-  var pdf = 'MSTU4040_FinalProject_YuxinCao.pdf';
-  window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/MSTU4040_FinalProject_YuxinCao.pdf');
 };
 
 var b2 = document.getElementById('b2');
 b2.onclick = function(){
-  var pdf = 'HMxGreenDesign_YuxinCao.pdf';
-  window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/HMxGreenDesign_YuxinCao.pdf');
 };
 var b3 = document.getElementById('b3');
 b3.onclick = function(){
@@ -58,14 +56,12 @@ b3.onclick = function(){
 };
 var b4 = document.getElementById('b4');
 b4.onclick = function(){
-  var pdf = 'AHA5060_Project_YuxinCao.pdf';
-  window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/AHA5060_Project_YuxinCao.pdf');
 };
 
 var b5 = document.getElementById('b5');
 b5.onclick = function(){
-  var pdf = 'AHA5060_FinalProject_YuxinCao.pdf';
-  window.open('../js/pdf/web/viewer.html?file=https://yxcao318.github.io/MyWebsite/pdf/' + pdf, 'PDF');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/AHA5060_FinalProject_YuxinCao.pdf');
 };
 
 //Contact
