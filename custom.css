@@ -435,6 +435,9 @@ font-size: 15px;
 box-shadow: 0 0 20px  #FFFCC7;
 }
 
+.contact-form h2{
+margin-bottom: 30px;
+}
 
 .txtb{
   border: 1px solid #fff;
