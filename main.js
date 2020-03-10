@@ -50,18 +50,20 @@ var b2 = document.getElementById('b2');
 b2.onclick = function() {
   window.open('https://yxcao318.github.io/MyWebsite/pdf/HMxGreenDesign_YuxinCao.pdf');
 };
+
 var b3 = document.getElementById('b3');
 b3.onclick = function() {
-  window.open('https://v.youku.com/v_show/id_XMzk1NDgwODgwNA==.html?spm=a2hzp.8244740.0.0');
+  window.open('https://v.youku.com/v_show/id_XNDU4MjQyMzcwNA==.html');
 };
+
 var b4 = document.getElementById('b4');
 b4.onclick = function() {
-  window.open('https://yxcao318.github.io/MyWebsite/pdf/AHA5060_Project_YuxinCao.pdf');
+  window.open('https://v.youku.com/v_show/id_XMzk1NDgwODgwNA==.html?spm=a2hzp.8244740.0.0');
 };
 
 var b5 = document.getElementById('b5');
 b5.onclick = function() {
-  window.open('https://yxcao318.github.io/MyWebsite/pdf/AHA5060_FinalProject_YuxinCao.pdf');
+  window.open('https://yxcao318.github.io/MyWebsite/pdf/AHA5060_Project_YuxinCao.pdf');
 };
 
 //Contact
