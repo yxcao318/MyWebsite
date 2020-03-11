@@ -53,7 +53,7 @@ b2.onclick = function() {
 
 var b3 = document.getElementById('b3');
 b3.onclick = function() {
-  window.open('https://v.youku.com/v_show/id_XNDU4MjQyMzcwNA==.html');
+  window.open('https://v.youku.com/v_show/id_XNDU4MjQyMzcwNA==.html?spm=a2hzp.8253869.0.0');
 };
 
 var b4 = document.getElementById('b4');
