@@ -351,7 +351,7 @@ section p {
   left: 10%;
   width: 80%;
   height: 60px;
-  background: rgb(255, 252, 199, 0.85);
+  background: rgb(255, 252, 199, 0.8);
   transition: 0.5s;
   overflow: hidden;
   padding: 17px;
@@ -365,7 +365,7 @@ section p {
   left: 10%;
   width: 80%;
   height: 60px;
-  background: rgb(255, 252, 199, 0.85);
+  background: rgb(255, 252, 199, 0.8);
   transition: 0.5s;
   overflow: hidden;
   padding: 7px 17px;
@@ -399,6 +399,56 @@ section p {
 .box:hover .content p {
   opacity: 1;
   transition-delay: 0.1s;
+}
+
+
+.scrolldown{
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+  width: 20px;
+  height: 20px;
+  transform: translateY(-80px) translateX(-50%) rotate(45deg);
+}
+
+.scrolldown span{
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-bottom: 2px solid #260030;
+  border-right: 2px solid #260030;
+  animation: scroll 1.5s linear infinite;
+  opacity: 0;
+}
+
+@keyframes scroll {
+  0%{
+    top: -5px;
+    left:-5px;
+    opacity: 0;
+  }
+  25%{
+    top: 0;
+    left:0;
+    opacity: 1;
+  }
+  50%, 100%{
+    top: 5px;
+    left:5px;
+    opacity: 0;
+  }
+}
+
+.scrolldown span:nth-child(1){
+  transform: translate(-12px, -12px);
+  animation-delay: -0.2s;
+}
+.scrolldown span:nth-child(2){
+  transform: translate(0, 0);
+  animation-delay: 0s;
 }
 
 @media (max-width:992px) {
@@ -437,7 +487,7 @@ section p {
     left: 10%;
     width: 80%;
     height: 40px;
-    background: rgb(255, 252, 199, 0.85);
+    background: rgb(255, 252, 199, 0.8);
     transition: 0.5s;
     overflow: hidden;
     padding: 10px;
@@ -447,6 +497,24 @@ section p {
 
   .box:hover .long {
     padding: 2px 10px;
+  }
+
+  .scrolldown{
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    width: 16px;
+    height: 16px;
+    transform: translateY(-80px) translateX(-50%) rotate(45deg);
+  }
+
+  .scrolldown span:nth-child(1){
+    transform: translate(-12px, -12px);
+    animation-delay: -0.2s;
+  }
+  .scrolldown span:nth-child(2){
+    transform: translate(0, 0);
+    animation-delay: 0s;
   }
 }
 
