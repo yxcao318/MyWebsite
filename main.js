@@ -15,10 +15,10 @@ menu[0].onmouseout = function() {
 }
 
 menu[1].onmouseover = function() {
-  this.innerHTML = "<span></span><span></span><span></span><span></span>关于我 / About";
+  this.innerHTML = "<span></span><span></span><span></span><span></span>研究兴趣 / Interests";
 }
 menu[1].onmouseout = function() {
-  this.innerHTML = "关于我 / About";
+  this.innerHTML = "研究兴趣 / Interests";
 }
 
 menu[2].onmouseover = function() {
@@ -29,10 +29,10 @@ menu[2].onmouseout = function() {
 }
 
 menu[3].onmouseover = function() {
-  this.innerHTML = "<span></span><span></span><span></span><span></span>联系我 / Contact";
+  this.innerHTML = "<span></span><span></span><span></span><span></span>关于我 / About";
 }
 menu[3].onmouseout = function() {
-  this.innerHTML = "联系我 / Contact";
+  this.innerHTML = "关于我 / About";
 }
 
 //portfolio link
@@ -68,7 +68,7 @@ b5.onclick = function() {
 
 var b6 = document.getElementById('b6');
 b6.onclick = function() {
-  window.open('https://v.youku.com/v_show/id_XMzk1NDgwODgwNA==.html?spm=a2hzp.8244740.0.0');
+  // window.open('https://v.youku.com/v_show/id_XMzk1NDgwODgwNA==.html?spm=a2hzp.8244740.0.0');
 };
 
 var b7 = document.getElementById('b7');
