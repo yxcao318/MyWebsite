@@ -15,10 +15,10 @@ menu[0].onmouseout = function() {
 }
 
 menu[1].onmouseover = function() {
-  this.innerHTML = "<span></span><span></span><span></span><span></span>研究兴趣 / Interests";
+  this.innerHTML = "<span></span><span></span><span></span><span></span>游戏兴趣 / Interests";
 }
 menu[1].onmouseout = function() {
-  this.innerHTML = "研究兴趣 / Interests";
+  this.innerHTML = "游戏兴趣 / Interests";
 }
 
 menu[2].onmouseover = function() {

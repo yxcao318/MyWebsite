@@ -184,6 +184,7 @@ section:nth-child(odd) {
 
 section p {
   font-size: 1.3em;
+  line-height: 1.5em;
 }
 
 @media (max-width:992px) {
@@ -403,7 +404,7 @@ section p {
 
 .scrolldown {
   position: absolute;
-  bottom: 0;
+  bottom: 10px;
   left: 50%;
   width: 20px;
   height: 20px;
@@ -647,7 +648,7 @@ footer {
     box-sizing: border-box;
     text-align: center;
     margin: auto;
-    font-size: 19px;
+    font-size: 15px;
     line-height: 1.3em;
   }
 
