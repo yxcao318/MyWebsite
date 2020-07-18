@@ -146,6 +146,11 @@ header ul li a span:nth-child(4) {
   display: none;
 }
 
+a {
+  color: #000;
+  text-decoration: none;
+}
+
 section {
   position: relative;
   display: flex;
@@ -178,6 +183,7 @@ section:nth-child(odd) {
   position: relative;
   justify-content: center;
   align-items: center;
+  text-align: center;
   background: #D0CAEB;
   color: #000;
 }
