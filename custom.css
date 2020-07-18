@@ -171,11 +171,16 @@ section h2 {
   line-height: 1.5em;
 }
 
+section h3 {
+  font-size: 2em;
+  line-height: 1.5em;
+}
+
 section:nth-child(odd) {
   position: relative;
   justify-content: center;
   align-items: center;
-  background: #D0CAEB;
+  background: #DDD6FC;
   color: #000;
 }
 
@@ -184,7 +189,12 @@ section:nth-child(odd) {
   justify-content: center;
   align-items: center;
   text-align: center;
-  background: #D0CAEB;
+  background: #DDD6FC;
+  color: #000;
+}
+
+#interest{
+  background: #DDD6FC;
   color: #000;
 }
 
@@ -227,6 +237,11 @@ section p {
   section h2 {
     font-size: 1.5em;
     line-height: 1.5em;
+  }
+
+  section h3 {
+    font-size: 1.2em;
+    line-height: 1.2em;
   }
 
   section p {
@@ -615,7 +630,7 @@ section p {
   font-size: 20px;
 } */
 footer {
-  background: #D0CAEB;
+  background: #DDD6FC;
   color: #260030;
   font-size: 20px;
   text-align: center;

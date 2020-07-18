@@ -252,22 +252,22 @@ footer {
 
   section h3 {
     font-size: 1em;
-    line-height: 1.5em;
+    line-height: 2em;
   }
 
   section p {
     font-size: 1em;
     line-height: 1.5em;
-    padding-left: 30px;
+    padding-left: 20px;
   }
 
   .intro{
       padding-top: 100px;
-      padding-left: 10px;
+      padding-left: 0;
   }
 
   .content{
-      padding-left: 10px;
+      padding-left: 0;
   }
 
   header ul {
