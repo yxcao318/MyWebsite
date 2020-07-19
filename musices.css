@@ -348,9 +348,13 @@ footer {
 
   .box {
     position: relative;
+    width: 460px;
     height: 250px;
     margin: 20px;
   }
-}
 
-/* header over */
+  footer {
+    font-size: 15px;
+    padding-bottom: 10px;
+  }
+}
