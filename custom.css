@@ -207,10 +207,11 @@ section p {
     display: flex;
   }
 
+  #home{
     padding-top: 150px;
   }
 
-  #interest, #portfolio{
+  #interest{
     padding-top: 50px;
   }
 
