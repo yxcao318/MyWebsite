@@ -186,12 +186,12 @@ section p {
 
 
 .game_box{
-  width: 1250px;
-  border: 2px solid black;
   position: relative;
+  /* width: 1240px; */
   display: flex;
   justify-content: space-between;
   align-items: center;
+  margin: 30px 150px;
 }
 
 footer {
