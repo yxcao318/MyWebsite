@@ -167,7 +167,7 @@ section h3 {
 section p {
   font-size: 1.3em;
   line-height: 1.5em;
-  padding-left: 50px;
+  /* padding-left: 50px; */
 }
 
 .container {
@@ -258,7 +258,7 @@ footer {
   section p {
     font-size: 1em;
     line-height: 1.5em;
-    padding-left: 20px;
+    /* padding-left: 20px; */
   }
 
   .intro{
