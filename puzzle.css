@@ -189,14 +189,6 @@ section p {
     padding-left: 25px;
 }
 
-iframe{
-   width:100%;
-   height:900px;
-   border-style: none;
-  margin: 30px auto;
-
-}
-
 .box {
   position: relative;
   width: 950px;
@@ -212,13 +204,15 @@ iframe{
   height: 100%;
 }
 
-.box .imgBx video {
+.box .imgBx iframe {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
 }
+
+
 
 footer {
   color: #260030;
