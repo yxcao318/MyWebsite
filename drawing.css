@@ -387,14 +387,14 @@ footer {
   .box {
     position: relative;
     width: 350px;
-    height: 270px;
+    height: 250px;
     margin: 0 20px;
   }
 
   .con_box {
     position: relative;
-    width: 200px;
-    height: 160px;
+    width: 250px;
+    height: 200px;
     margin: 10px 20px;
   }
 
