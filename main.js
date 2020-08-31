@@ -4,6 +4,9 @@ function Toggle() {
   header.classList.toggle('active');
 }
 
+document.οncοntextmenu=new Function("event.returnValue=false");
+document.onselectstart=new Function("event.returnValue=false");
+
 //menu bar
 var menu = document.getElementsByClassName("menu");
 menu[0].onmouseover = function() {
@@ -51,6 +54,7 @@ idBx[3].onclick = function(){
 idBx[4].onclick = function(){
   window.open('https://space.bilibili.com/346906332')
 };
+
 
 //portfolio link
 // var b0 = document.getElementById('b0');
